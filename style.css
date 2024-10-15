@@ -1,0 +1,334 @@
+body {
+  background:url(/images/concert.webp);
+  background-size: 3500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 2010px;
+  overflow-x: hidden;
+}
+
+nav {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  width: 88%;
+  height: 80px;
+  left: 100px;
+  text-align: right;
+  padding: 40px 140px 0px 0px;
+  color: rgb(255, 255, 255);
+  bottom: 9px;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.nav {
+  display: inline-block;
+  margin: 10px;
+  font-family: "Inter", system-ui;
+  transition: 0.4s;
+}
+
+h2 {
+  position: relative;
+  top: 135px;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  font-size: 60px;
+  left: 20px;
+  color: rgb(255, 255, 101);
+}
+
+.qvevit {
+  position: relative;
+  top: 150px;
+  left: 1100px;
+  color: rgb(226, 226, 226);
+}
+
+.fa-user {
+  display: inline-block;
+  font-family: "Inter", system-ui;
+}
+
+.fa-facebook-f {
+  display: inline-block;
+  position: relative;
+  left: 95px;
+  font-family: "Inter", system-ui;
+  cursor: pointer;
+}
+
+.fa-instagram {
+  display: inline-block;
+  position: relative;
+  left: 105px;
+  font-size: 17.8px;
+  font-family: "Inter", system-ui;
+  cursor: pointer;
+}
+
+.login {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  font-family: "Inter", system-ui;
+  left: 85px;
+  transition: 0.3s;
+}
+
+.nav:hover {
+  color: rgb(255, 255, 101);
+  cursor: pointer;
+}
+
+.login:hover {
+  color: rgb(131, 131, 131);
+  cursor: pointer;
+}
+
+img {
+  position: absolute;
+  right: 2259px;
+  bottom: 0.2px;
+  width: 130px;
+  height: 130px;
+}
+
+.info {
+  display: inline-block;
+  position: relative;
+  top: 90px;
+  margin: 94px;
+  left: 347px;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  color: rgb(255, 255, 101);
+  font-size: 23px;
+}
+
+.data {
+  display: inline-block;
+  position: relative;
+  right: 375px;
+  top: 130px;
+  margin: 30px;
+  color: white;
+}
+
+form {
+  position: relative;
+  text-align: center;
+  top: 160px;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  background-color: rgba(0, 0, 0, 0.781);
+  width: 2400px;
+  height: 500px;
+  left: 70px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  position: relative;
+  top: 55px;
+  color: rgb(255, 255, 255);
+  font-size: 90px;
+}
+
+button {
+  position: relative;
+  top: 300px;
+  padding: 10px 300px 10px 300px;
+  background-color: rgb(255, 255, 101);
+  border: rgb(255, 255, 101) 2px solid;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  right: 310px;
+}
+
+button:hover {
+  background-color: transparent;
+  color: rgb(255, 255, 101);
+}
+
+.leavemassage {
+  position: relative;
+  outline: none;
+  height: 100px;
+  width: 620px;
+  padding: 0px 15px 0px 15px;
+  top: 150px;
+  left: 350px;
+  background-color: transparent;
+  border-color: rgb(255, 255, 255);
+  transition: 0.3s;
+  color: white;
+  text-align: top;
+}
+
+.leavemassage:hover {
+  border-color: rgb(255, 255, 101);
+}
+
+.leavemassage:focus {
+  border-color: rgb(255, 255, 101);
+}
+
+.leavemassage1 {
+  position: relative;
+  bottom: 127px;
+  left: 703px;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  color: white;
+  font-size: 15px;
+}
+
+.Email {
+  position: relative;
+  width: 270px;
+  padding: 0px 15px 0px 15px;
+  top: 50px;
+  right: 65px;
+  height: 40px;
+  left: 2px;
+  outline: none;
+  background-color: transparent;
+  border-color: white;
+  transition: 0.3s;
+  font-size: 15px;
+  color: white;
+}
+
+.Email:hover {
+  border-color: rgb(255, 255, 101);
+}
+
+.Email:focus {
+  border-color: rgb(255, 255, 101);
+}
+
+.email1 {
+  position: relative;
+  bottom: 269px;
+  left: 806px;
+  color: white;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  font-size: 15px;
+}
+
+.Subject {
+  position: relative;
+  width: 270px;
+  padding: 0px 15px 0px 15px;
+  height: 40px;
+  top: 50px;
+  left: 40px;
+  outline: none;
+  background-color: transparent;
+  border-color: white;
+  transition: 0.3s;
+  font-size: 15px;
+  color: white;
+  font-size: 15px;
+}
+
+.subject1 {
+  position: relative;
+  bottom: 269px;
+  left: 1111px;
+  color: white;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  font-size: 15px;
+}
+
+.Subject:hover {
+  border-color: rgb(255, 255, 101);
+}
+
+.Subject:focus {
+  border-color: rgb(255, 255, 101);
+}
+
+.FirstName {
+  position: relative;
+  bottom: 20px;
+  left: 1px;
+  width: 270px;
+  padding: 0px 15px 0px 15px;
+  height: 40px;
+  outline: none;
+  background-color: transparent;
+  border-color: white;
+  transition: 0.3s;
+  font-size: 15px;
+  color: white;
+}
+
+.FirstName:hover {
+  border-color: rgb(255, 255, 101);
+}
+
+.FirstName:focus {
+  border-color: rgb(255, 255, 101);
+}
+
+.firstname1 {
+  position: relative;
+  bottom: 386px;
+  left: 965px;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  color: white;
+}
+
+.LastName {
+  position: relative;
+  bottom: 20px;
+  left: 40px;
+  width: 270px;
+  padding: 0px 15px 0px 15px;
+  height: 40px;
+  outline: none;
+  background-color: transparent;
+  border-color: white;
+  transition: 0.3s;
+  font-size: 15px;
+  color: white;
+}
+
+.LastName:hover {
+  border-color: rgb(255, 255, 101);
+}
+
+.LastName:focus {
+  border-color: rgb(255, 255, 101);
+}
+
+.lastname1 {
+  position: relative;
+  bottom: 385px;
+  left: 1232px;
+  color: white;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  font-size: 15px;
+}
+
+.googlemap {
+  position: relative;
+  width: 2400px;
+  left: 70px;
+  top: 140px;
+}
